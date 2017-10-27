@@ -17,6 +17,7 @@ import java.util.List;
  * Created by dllo on 17/10/27.
  */
 public class CitySelectAction extends ActionSupport {
+    //存储大区
     private List<Area> areaList;
     //定义变量,用来接收选择的是哪个大区
     private int index;
